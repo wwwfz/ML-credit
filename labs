@@ -22,7 +22,6 @@ from sklearn.pipeline import Pipeline
 from sklearn.model_selection import GridSearchCV, KFold
 from sklearn.externals import joblib
 from sklearn.preprocessing import Imputer
-
 from sklearn.model_selection import StratifiedShuffleSplit
 from sklearn.preprocessing import StandardScaler
 scaler = StandardScaler()
